@@ -1,3 +1,20 @@
 1.5.0
 unison uwp
-WhatsApp for wm 
+• Ukrainian + missing strings
+• Background apps at login
+• QR fix for 4.5" Lumias
+• Scroll to bottom
+• Send during sync stays in the right time
+• Chat list shows Video / Image / Message (not raw text)
+• Header first, chat opens at the bottom
+• Today/Yesterday chips, local bubble time
+• @mentions → names
+• Who reacted
+• Stickers as stickers
+• Member photos + member info
+• Add to People / optional Unison contacts in Windows
+• Full-screen chat info on narrow screens
+• Media & Files load when you open the tab
+• Status list + viewer (view only)
+• Updating… / Syncing conversations… less stuck
+Restart once after install. Resync a chat if old mentions/quotes look wrong.
