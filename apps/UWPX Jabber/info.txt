@@ -1,5 +1,6 @@
 1.0.44
 UWPX Jabber
+Соцсети
 XMPP Messaging
 Background mode
 Real time notifications in background mode
