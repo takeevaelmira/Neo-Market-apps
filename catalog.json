@@ -1,0 +1,135 @@
+{
+  "apps": [
+    {
+      "version": "3.1.0.0",
+      "name": "YouTube UWP",
+      "category": "",
+      "description": "Сделано:\n• видео добавляется в историю просмотра\n• полностью исправлена загрузка видео с определенным качеством\n• обновлен дизайн плеера\n• добавлены превью видео при перемотке (по умолчанию выключены)\n• добавлена работа с плейлистами на странице видео\n• добавлен миниплеер\n• исправлены баги на странице видео\n• YouTube Shorts теперь персональные\n• исправлены баги на странице Shorts\n• ускорена работа страницы Shorts\n• добавлен фильтр в поиске Shorts\n• обновлен дизайн страницы канала\n• добавлены Shorts, плейлисты, посты на странице канала\n• исправлены баги на странице канала\n• изменения в настройках: можно включить/отключить автоматический переход в полноэкранный режим на странице видео, включение/выключение превью видео при перемотке, выбор качества по умолчанию для Shorts, теперь уведомления приложения выключены по умолчанию",
+      "iconUrl": "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/YoutubeUWP/icon.png",
+      "downloadUrl": "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/YoutubeUWP/YouTube_3.1.0.0_x86_arm.appxbundle",
+      "screenshots": [
+        "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/YoutubeUWP/screenshot1.jpg",
+        "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/YoutubeUWP/screenshot3.jpg",
+        "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/YoutubeUWP/screenshot2.jpg"
+      ]
+    },
+    {
+      "version": "1.1.0",
+      "name": "Telegram UWP",
+      "category": "Соцсети",
+      "description": "вход в аккаунт по: номеру телефона, qr code, также поддерживается облачный пароль\nполучение папок и списков чатов в них\nархивные чаты\nглобальный поиск по чатам (можно искать чаты в которых вас даже нет)\nконтакты\nдобавление контактов в систему (вместе с иконками, номерами и т. д.)\nличные чаты\nгруппы\nсупергруппы\nканалы\nполучение реакций на сообщение\nполучение комментариев в канале\nзагрузка фото, видео, gif, файлов, голосовых сообщений, аудио сообщений (с воможностью прослушивания в фоне (ну для музыки)), стикеры (включая анимированные)\nподдержка markdown в сообщениях\nпрофили людей, каналов, групп\nполучение уведомлений, даже в фоне, даже когда приложение не открыто (но это к сожалению работает криво из-за отключенного сервера уведомлений Microsoft, но они приходят, но условно раз в 15 минут если повезет)\nContinuum адаптация (все красиво отображается)\nнастройки где все это можно удобно настроить\nРеализация MTProxy (но из-за того что не смог найти рабочие ссылки не смог нормально протестировать, но вроде бы работает)",
+      "iconUrl": "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/TelegramUWP/icon.png",
+      "downloadUrl": "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/TelegramUWP/Telegram_1.1.0.0_ARM.appx",
+      "screenshots": [
+        "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/TelegramUWP/screenshot1.jpg",
+        "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/TelegramUWP/screenshot3.jpg",
+        "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/TelegramUWP/screenshot2.jpg"
+      ]
+    },
+    {
+      "version": "1.2.150.0",
+      "name": "8 Zip",
+      "category": "Инструменты",
+      "description": "Out with the old, in with the new. The powerful archiver\n8 Zip has expanded its set of capabilities with the new Continuum,\nCortana and Windows Hello technologies.\nNow one app, one license,\na uniform design and functionality can be had on all types of devices.\nDecrypt files through an iris scan or at a touch. Listen to music, read documents,\nand watch videos right in the app. Share files with friends – it’s simple.",
+      "iconUrl": "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/8zip/icon.png",
+      "downloadUrl": "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/8zip/8Zip v1.2.150.0.appx",
+      "screenshots": [
+        "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/8zip/screenshot1.jpg",
+        "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/8zip/screenshot3.jpg",
+        "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/8zip/screenshot2.jpg"
+      ]
+    },
+    {
+      "version": "1.0.35.6",
+      "name": "Unogram",
+      "category": "Соцсети",
+      "description": "🔐 Авторизация\nВход по номеру телефона и SMS коду\nПоддержка двухфакторной аутентификации\nСохранение сессии между перезапусками\n💬 Список чатов\nАватарки, превью последнего сообщения, время, счётчики непрочитанных\nСтатус онлайн собеседника (зелёная точка)\nЗакреплённые чаты сверху с иконкой 📌\nАрхив чатов\nЧат «⭐ Избранное» для заметок\nБейдж с количеством непрочитанных на иконке приложения\nСветлая и тёмная тема оформления\n📁 Папки чатов\nПолная поддержка папок Telegram\nПереключение вкладками в одно касание\nАрхив скрывается внутри папок\n🔍 Поиск\nПоиск по названиям чатов и контактам\nГлобальный поиск каналов и групп по @username с аватарками и никами\nПоиск пользователей по имени\nПоиск по тексту сообщений во всех чатах\nПереход к найденному сообщению в переписке\n💬 Переписка\nБесконечная прокрутка истории вверх\nРазделитель дат и разделитель непрочитанных\nГалочки статуса — ✓ отправлено, ✓✓ прочитано\nИмена и цвета участников над сообщениями в группах\nЗакреплённое сообщение в шапке с переходом по нажатию\nЦитирование и ответ на сообщение\nРедактирование и удаление своих сообщений\nПересылка сообщений в другой чат\nРеакции на сообщения\nПредпросмотр ссылок (Link Preview) с заголовком и описанием\nПереход по @упоминаниям прямо из сообщения\nСервисные сообщения — закрепление, добавление участников и др.\nСтатус «печатает...»\n📎 Медиа и файлы\nОтправка фото (именно как фото, не как файл)\nОтправка нескольких фото и файлов за раз\nОтправка документов любого типа\nПрогресс загрузки входящих файлов\nСкачивание и открытие документов\nПросмотр входящих фото\nЗапись и отправка голосовых сообщений\nВоспроизведение голосовых и аудио со слайдером\nЗапись и отправка видеокружочков с фронтальной камеры\nОтображение входящих видеосообщений\nСтикеры — отображение и отправка\n👤 Профиль и контакты\nПросмотр профиля собеседника — @username, телефон, bio\nПрофиль группы/канала — описание и список участников\nПереход в личный чат с участником из профиля группы\nЧисло участников/подписчиков в шапке чата\nКонтактлист с аватарками и статусом «был(а)»\n«⭐ Избранное» первым в контактах\n👥 Групповые чаты и каналы\nПолноценная работа с группами и каналами\nИмена участников над сообщениями с цветовым кодированием\nЗакрепление и открепление сообщений через меню\nСписок участников группы в профиле\n🤖 Боты\nКнопка «▶ Старт» для запуска бота в пустом чате\n⚙ Дополнительно\nПоддержка прокси — MTProto, SOCKS5, HTTP\nУведомления Toast при новых сообщениях\nМеню настроек с быстрым доступом к Избранному и выходу\nПоддержка нескольких папок чатов Telegram\nПроект с открытым исходным кодом. Разработан для сохранения жизни Windows Phone 10 в 2026 году.",
+      "iconUrl": "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/Unogram/icon.png",
+      "downloadUrl": "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/Unogram/Unogram_1.0.35.6_ARM.appx",
+      "screenshots": [
+        "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/Unogram/screenshot1.jpg",
+        "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/Unogram/screenshot3.jpg",
+        "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/Unogram/screenshot2.jpg"
+      ]
+    },
+    {
+      "version": "1.0.3",
+      "name": "Google Translate",
+      "category": "Google сервисы",
+      "description": "Возможности:\n• перевод текста с 10 языков\n• перевод текста с камеры с 10 языков\n• перевод текста с микрофона с 10 языков (работает не на всех устройствах)\n• копирование перевода\n• озвучивание перевода с 10 языков",
+      "iconUrl": "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/GoogleTranslate/icon.png",
+      "downloadUrl": "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/GoogleTranslate/Google Translate_1.0.3.0_arm_Debug.appxbundle",
+      "screenshots": [
+        "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/GoogleTranslate/screenshot3.png",
+        "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/GoogleTranslate/screenshot1.png",
+        "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/GoogleTranslate/screenshot2.png"
+      ]
+    },
+    {
+      "version": "1.0.0",
+      "name": "RuTube",
+      "category": "",
+      "description": "– Главная — та же витрина, что в официальном приложении: вкладки по типу \"Спорт\",\n\"ТВ онлайн\", \"Видеоигры\", \"Трансляции\" и карусели блоков внутри каждой;\n– Поиск по видео, каналам и плейлистам;\n– Shorts вертикальной лентой;\n– Подписки: список каналов и новое от них;\n– Уведомления со счётчиком непрочитанных;\nПлеер:\n– HLS от 1080p до 144p;\n– Описание, комментарии с подгрузкой, похожие видео. У трансляций вместо\nкомментариев — чат;\n\nАккаунт:\n– Вход по почте и одноразовому коду из письма, как в официальном приложении.\n– Лайки и дизлайки, подписка на канал прямо из плеера;\n– \"Смотреть позже\", \"Понравилось\", история просмотра;",
+      "iconUrl": "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/RuTube/icon.png",
+      "downloadUrl": "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/RuTube/RuTube_1.0.0.0_x86_arm.appxbundle",
+      "screenshots": [
+        "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/RuTube/screenshot1.jpg",
+        "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/RuTube/screenshot3.jpg",
+        "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/RuTube/screenshot2.jpg"
+      ]
+    },
+    {
+      "version": "1.0.3",
+      "name": "Google Drive",
+      "category": "Google сервисы",
+      "description": "• вход в Google аккаунт\n• просмотр файлов\n• скачивание файлов\n• создание .txt .pdf .docx\n• открытие папок\n• открытие .txt .pdf .docx .xlsx\n• редактирование .txt .docx\n• удаление/перейменование файлов\n• управление корзиной\n• просмотр сколько места осталось на диске\n• просмотр недавнего\n\nИ ещё пара функций",
+      "iconUrl": "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/GoogleDrive/icon.png",
+      "downloadUrl": "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/GoogleDrive/Google Drive_1.0.3.0_arm_Debug.appxbundle",
+      "screenshots": [
+        "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/GoogleDrive/screenshot3.png",
+        "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/GoogleDrive/screenshot1.png",
+        "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/GoogleDrive/screenshot2.png"
+      ]
+    },
+    {
+      "version": "1.0.44",
+      "name": "UWPX Jabber",
+      "category": "Соцсети",
+      "description": "XMPP Messaging\nBackground mode\nReal time notifications in background mode",
+      "iconUrl": "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/UWPX Jabber/icon.png",
+      "downloadUrl": "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/UWPX Jabber/UWP XMPP Client_1.0.44.0_ARM.appx",
+      "screenshots": [
+        "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/UWPX Jabber/screenshot3.png",
+        "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/UWPX Jabber/screenshot1.jpg",
+        "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/UWPX Jabber/screenshot2.png"
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "name": "Microsoft.NET.CoreRuntime.1.1",
+      "fileName": "Microsoft.NET.CoreRuntime.1.1.appx",
+      "downloadUrl": "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/Dependencies/Microsoft.NET.CoreRuntime.1.1.appx"
+    },
+    {
+      "name": "Microsoft.NET.Native.Runtime.1.4",
+      "fileName": "Microsoft.NET.Native.Runtime.1.4.appx",
+      "downloadUrl": "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/Dependencies/Microsoft.NET.Native.Runtime.1.4.appx"
+    },
+    {
+      "name": "Microsoft.VCLibs.ARM.Debug.14.00",
+      "fileName": "Microsoft.VCLibs.ARM.Debug.14.00.appx",
+      "downloadUrl": "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/Dependencies/Microsoft.VCLibs.ARM.Debug.14.00.appx"
+    },
+    {
+      "name": "Microsoft.VCLibs.ARM.14.00",
+      "fileName": "Microsoft.VCLibs.ARM.14.00.appx",
+      "downloadUrl": "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/Dependencies/Microsoft.VCLibs.ARM.14.00.appx"
+    },
+    {
+      "name": "Microsoft.NET.Native.Framework.1.3",
+      "fileName": "Microsoft.NET.Native.Framework.1.3.appx",
+      "downloadUrl": "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/Dependencies/Microsoft.NET.Native.Framework.1.3.appx"
+    }
+  ]
+}
