@@ -10,18 +10,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
+
       - name: Generate catalog.json
         run: |
+          python -c "
           import os, json
-          
-          catalog = {"apps": [], "dependencies": []}
-          raw_base = "https://raw.githubusercontent.com/${{ github.repository }}/main"
-          
-          # Сканируем приложения
+
+          catalog = {'apps': [], 'dependencies': []}
+          raw_base = 'https://raw.githubusercontent.com/${{ github.repository }}/main'
+
           if os.path.exists('apps'):
               for folder in os.listdir('apps'):
                   folder_path = os.path.join('apps', folder)
@@ -32,31 +34,31 @@ jobs:
                               lines = [line.strip() for line in f.readlines()]
                           
                           files = os.listdir(folder_path)
-                          download_url = next((f"{raw_base}/apps/{folder}/{f}" for f in files if f.endswith(('.appx', '.appxbundle'))), "")
-                          screenshots = [f"{raw_base}/apps/{folder}/{f}" for f in files if f.startswith('screenshot')]
+                          download_url = next((f'{raw_base}/apps/{folder}/{f}' for f in files if f.endswith(('.appx', '.appxbundle'))), '')
+                          screenshots = [f'{raw_base}/apps/{folder}/{f}' for f in files if f.startswith('screenshot')]
                           
-                          catalog["apps"].append({
-                              "version": lines[0] if len(lines) > 0 else "1.0",
-                              "name": lines[1] if len(lines) > 1 else folder,
-                              "category": lines[2] if len(lines) > 2 else "Разное",
-                              "description": "\n".join(lines[3:]) if len(lines) > 3 else "",
-                              "iconUrl": f"{raw_base}/apps/{folder}/icon.png",
-                              "downloadUrl": download_url,
-                              "screenshots": screenshots
+                          catalog['apps'].append({
+                              'version': lines[0] if len(lines) > 0 else '1.0',
+                              'name': lines[1] if len(lines) > 1 else folder,
+                              'category': lines[2] if len(lines) > 2 else 'Разное',
+                              'description': '\n'.join(lines[3:]) if len(lines) > 3 else '',
+                              'iconUrl': f'{raw_base}/apps/{folder}/icon.png',
+                              'downloadUrl': download_url,
+                              'screenshots': screenshots
                           })
 
-          # Сканируем зависимости
           if os.path.exists('Dependencies'):
               for file in os.listdir('Dependencies'):
                   if file.endswith(('.appx', '.appxbundle')):
-                      catalog["dependencies"].append({
-                          "name": os.path.splitext(file)[0],
-                          "fileName": file,
-                          "downloadUrl": f"{raw_base}/Dependencies/{file}"
+                      catalog['dependencies'].append({
+                          'name': os.path.splitext(file)[0],
+                          'fileName': file,
+                          'downloadUrl': f'{raw_base}/Dependencies/{file}'
                       })
 
           with open('catalog.json', 'w', encoding='utf-8') as f:
               json.dump(catalog, f, ensure_ascii=False, indent=2)
+          "
 
       - name: Commit catalog.json
         run: |
