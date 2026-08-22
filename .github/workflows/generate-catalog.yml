@@ -6,7 +6,7 @@ on:
 
 jobs:
   build:
-    runs-runs-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
       - name: Set up Python
@@ -40,7 +40,7 @@ jobs:
                               "category": lines[2] if len(lines) > 2 else "Разное",
                               "description": "\n".join(lines[3:]) if len(lines) > 3 else "",
                               "iconUrl": f"{raw_base}/apps/{folder}/icon.png",
-                              "downloadUrl": downloadUrl,
+                              "downloadUrl": download_url,
                               "screenshots": screenshots
                           })
 
