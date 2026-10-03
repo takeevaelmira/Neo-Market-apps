@@ -59,7 +59,9 @@
       "description": "• login with Instagram username and password\n• saved session and automatic login restoration\n• home feed\n• feed pagination while scrolling\n• viewing photos, videos, and carousel posts\n• liking and unliking posts\n• viewing and posting comments\n• viewing your profile and other users’ profiles\n• followers and following lists\n• Stories tray\n• full-screen Stories viewer\n• navigation between Stories\n• replying and reacting to Stories\n• Explore page\n• account and content search\n• activity and notifications page\n• light and dark themes\n• automatic language and region detection\n• language selector on the login screen\n• manual language selection in Settings\n• support for 33 locales\n• transparent Live Tile\n• app name displayed on medium and wide Tiles\n• optional diagnostic logs, disabled by default\n• compatibility with Windows 10 Mobile build 15063 or newer",
       "iconUrl": "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/Insta10/icon.png",
       "downloadUrl": "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/Insta10/Insta10.0.1.9.6.ARM.appx",
-      "screenshots": []
+      "screenshots": [
+        "https://raw.githubusercontent.com/takeevaelmira/Neo-Market-apps/main/apps/Insta10/screenshot1.jpg"
+      ]
     },
     {
       "version": "1.0.44",
